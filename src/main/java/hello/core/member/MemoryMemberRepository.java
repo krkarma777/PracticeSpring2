@@ -1,9 +1,5 @@
-package hello.core.repository;
+package hello.core.member;
 
-import hello.core.domain.Member;
-import hello.core.repository.MemberRepository;
-
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
