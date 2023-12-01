@@ -10,8 +10,13 @@ import org.mockito.internal.matchers.Or;
 
 public class OrderServiceTest {
 
-    MemberService memberService = new MemberServiceImpl();
-    OrderService orderService = new OrderServiceImpl();
+    MemberService memberService;
+    OrderService orderService;
+
+    public OrderServiceTest(MemberService memberService, OrderService orderService) {
+        this.memberService = memberService;
+        this.orderService = orderService;
+    }
 
     @Test
     void createOrder(){
