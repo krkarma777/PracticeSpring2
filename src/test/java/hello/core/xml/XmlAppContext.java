@@ -1,4 +1,4 @@
-package xml;
+package hello.core.xml;
 
 import hello.core.member.MemberService;
 import org.assertj.core.api.Assertions;

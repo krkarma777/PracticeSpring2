@@ -1,4 +1,4 @@
-package singleton;
+package hello.core.singleton;
 
 public class SingletonService {
 
