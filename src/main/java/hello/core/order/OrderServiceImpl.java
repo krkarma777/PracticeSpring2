@@ -15,7 +15,6 @@ public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
 
-
     private final DiscountPolicy discountPolicy;
 
     public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
